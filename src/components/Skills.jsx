@@ -1,27 +1,45 @@
-import FadeUp from './FadeUp.jsx'
+import FadeUp from "./FadeUp.jsx";
 
 const LAYERS = [
-  { tag: 'M', name: 'MongoDB', desc: 'Schema design, aggregation pipelines, Mongoose modeling for flexible, document-based data.', color: 'cyan' },
-  { tag: 'E', name: 'Express.js', desc: 'Route architecture, middleware, authentication (JWT), and RESTful API design.', color: 'amber' },
-  { tag: 'R', name: 'React', desc: 'Component-driven UIs, hooks, context/state management, and performance-conscious rendering.', color: 'violet' },
-  { tag: 'N', name: 'Node.js', desc: 'Server-side JavaScript, async workflows, and integrating third-party services.', color: 'cyan' },
-]
+  {
+    tag: "M",
+    name: "MongoDB",
+    desc: "Schema design, aggregation pipelines, Mongoose modeling for flexible, document-based data.",
+    color: "cyan",
+  },
+  {
+    tag: "E",
+    name: "Express.js",
+    desc: "Route architecture, middleware, authentication (JWT), and RESTful API design.",
+    color: "amber",
+  },
+  {
+    tag: "R",
+    name: "React",
+    desc: "Component-driven UIs, hooks, context/state management, and performance-conscious rendering.",
+    color: "violet",
+  },
+  {
+    tag: "N",
+    name: "Node.js",
+    desc: "Server-side JavaScript, async workflows, and integrating third-party services.",
+    color: "cyan",
+  },
+];
 
 const TOOLS = [
-  { label: 'Tailwind CSS', color: 'bg-cyan' },
-  { label: 'Git & GitHub', color: 'bg-amber' },
-  { label: 'REST API Design', color: 'bg-violet' },
-  { label: 'JWT Authentication', color: 'bg-cyan' },
-  { label: 'Postman', color: 'bg-amber' },
-  { label: 'Redux Toolkit', color: 'bg-violet' },
-  { label: 'Vercel / Render', color: 'bg-cyan' },
-]
+  { label: "Tailwind CSS", color: "bg-cyan" },
+  { label: "Git & GitHub", color: "bg-amber" },
+  { label: "REST API Design", color: "bg-violet" },
+  { label: "JWT Authentication", color: "bg-cyan" },
+  { label: "Vercel / Render", color: "bg-cyan" },
+];
 
 const colorClasses = {
-  cyan: 'bg-cyan/12 text-cyan border-cyan/30',
-  amber: 'bg-amber/12 text-amber border-amber/30',
-  violet: 'bg-violet/12 text-violet border-violet/30',
-}
+  cyan: "bg-cyan/12 text-cyan border-cyan/30",
+  amber: "bg-amber/12 text-amber border-amber/30",
+  violet: "bg-violet/12 text-violet border-violet/30",
+};
 
 export default function Skills() {
   return (
@@ -35,8 +53,8 @@ export default function Skills() {
             The stack, layer by layer.
           </h2>
           <p className="text-ink-muted mt-[14px] text-[1.02rem]">
-            MERN isn&apos;t four separate tools — it&apos;s one pipeline from database to browser. Here&apos;s
-            how each piece fits.
+            MERN isn&apos;t four separate tools — it&apos;s one pipeline from
+            database to browser. Here&apos;s how each piece fits.
           </p>
         </FadeUp>
 
@@ -52,8 +70,12 @@ export default function Skills() {
                 {layer.tag}
               </div>
               <div>
-                <h4 className="text-[1.05rem] font-semibold mb-[3px]">{layer.name}</h4>
-                <span className="text-[0.88rem] text-ink-muted">{layer.desc}</span>
+                <h4 className="text-[1.05rem] font-semibold mb-[3px]">
+                  {layer.name}
+                </h4>
+                <span className="text-[0.88rem] text-ink-muted">
+                  {layer.desc}
+                </span>
               </div>
             </div>
           ))}
@@ -72,5 +94,5 @@ export default function Skills() {
         </FadeUp>
       </div>
     </section>
-  )
+  );
 }

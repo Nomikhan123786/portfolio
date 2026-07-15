@@ -1,41 +1,42 @@
-import FadeUp from './FadeUp.jsx'
+import FadeUp from "./FadeUp.jsx";
 
 const PROJECTS = [
   {
-    icon: '🏥',
-    color: 'cyan',
-    title: 'Hospital Appointment System',
-    desc: 'A booking platform where patients schedule visits by department and doctor availability, while admins manage schedules from a dedicated dashboard in real time.',
-    tags: ['React', 'Node.js', 'Express', 'MongoDB', 'JWT'],
+    icon: "🏥",
+    color: "cyan",
+    title: "Hospital Appointment System",
+    desc: "A booking platform where patients schedule visits by department and doctor availability, while admins manage schedules from a dedicated dashboard in real time.",
+    tags: ["React", "Node.js", "Express", "MongoDB", "JWT"],
   },
   {
-    icon: '💼',
-    color: 'amber',
-    title: 'Job Portal',
-    desc: 'Role-based platform connecting job seekers and recruiters — resume uploads, application tracking, and a recruiter dashboard for managing listings and candidates.',
-    tags: ['React', 'Redux', 'Express', 'MongoDB', 'Tailwind'],
+    icon: "🚐",
+    color: "amber",
+    title: "SwiftMove Clone ",
+    desc: "Frontend clone of a professional moving & relocation service landing page, featuring a hero section, service highlights, pricing, testimonials, and a quote request form, built with responsive design and modern UI components. Focused on replicating real-world business UX — including navigation, dark mode toggle, and multi-section layout — using React and Tailwind CSS",
+
+    tags: ["React", "Tailwind CSS"],
   },
   {
-    icon: '🛒',
-    color: 'violet',
-    title: 'E-Commerce Admin Dashboard',
-    desc: 'An analytics-driven dashboard for store owners to track orders, manage inventory, and visualize sales trends with real-time charts.',
-    tags: ['React', 'Node.js', 'Chart.js', 'MongoDB'],
+    icon: "🏆",
+    color: "violet",
+    title: "E-Commerce ",
+    desc: "An analytics-driven dashboard for store owners to track orders, manage inventory, and visualize sales trends with real-time charts.",
+    tags: ["React", "Node.js", "Chart.js", "MongoDB"],
   },
   {
-    icon: '💬',
-    color: 'cyan',
-    title: 'Real-Time Chat App',
-    desc: 'A socket-powered messaging app with private rooms, typing indicators, and online-status presence built on Express and Socket.io.',
-    tags: ['React', 'Socket.io', 'Express', 'MongoDB'],
+    icon: "💬",
+    color: "cyan",
+    title: "Real-Time Chat App",
+    desc: "A socket-powered messaging app with private rooms, typing indicators, and online-status presence built on Express and Socket.io.",
+    tags: ["React", "Socket.io", "Express", "MongoDB"],
   },
-]
+];
 
 const colorClasses = {
-  cyan: 'bg-cyan/12 border-cyan/30',
-  amber: 'bg-amber/12 border-amber/30',
-  violet: 'bg-violet/12 border-violet/30',
-}
+  cyan: "bg-cyan/12 border-cyan/30",
+  amber: "bg-amber/12 border-amber/30",
+  violet: "bg-violet/12 border-violet/30",
+};
 
 export default function Projects() {
   return (
@@ -49,7 +50,8 @@ export default function Projects() {
             Things I&apos;ve built and shipped.
           </h2>
           <p className="text-ink-muted mt-[14px] text-[1.02rem]">
-            A selection of full-stack applications — each one built solo, from database schema to deployed UI.
+            A selection of full-stack applications — each one built solo, from
+            database schema to deployed UI.
           </p>
         </FadeUp>
 
@@ -82,8 +84,12 @@ export default function Projects() {
                   </a>
                 </div>
               </div>
-              <h3 className="text-[1.2rem] font-semibold mb-[10px]">{project.title}</h3>
-              <p className="text-ink-muted text-[0.94rem] mb-[18px]">{project.desc}</p>
+              <h3 className="text-[1.2rem] font-semibold mb-[10px]">
+                {project.title}
+              </h3>
+              <p className="text-ink-muted text-[0.94rem] mb-[18px]">
+                {project.desc}
+              </p>
               <div className="flex flex-wrap gap-2">
                 {project.tags.map((tag) => (
                   <span
@@ -99,5 +105,5 @@ export default function Projects() {
         </div>
       </div>
     </section>
-  )
+  );
 }

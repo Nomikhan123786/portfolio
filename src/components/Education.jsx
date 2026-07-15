@@ -1,17 +1,17 @@
-import FadeUp from './FadeUp.jsx'
+import FadeUp from "./FadeUp.jsx";
 
 const EDU = [
   {
-    title: 'BS Computer Science',
-    meta: 'University of Engineering & Technology · 2021 – 2025',
-    badge: 'CGPA 3.6 / 4.0',
+    title: "BS Information Technology",
+    meta: "Thal University Bhakkar · 2022 – 2026",
+    badge: "CGPA 3.57 / 4.0",
   },
   {
-    title: 'Full-Stack Web Development Certification',
-    meta: 'Self-paced · MongoDB, Express, React, Node.js',
-    badge: 'Completed 2024',
+    title: "Full-Stack Web Development Certification",
+    meta: "Self-paced · MongoDB, Express, React, Node.js",
+    badge: "Completed 2025",
   },
-]
+];
 
 export default function Education() {
   return (
@@ -34,7 +34,9 @@ export default function Education() {
             >
               <div>
                 <h3 className="text-[1.1rem] font-semibold">{item.title}</h3>
-                <span className="text-[0.9rem] text-ink-muted">{item.meta}</span>
+                <span className="text-[0.9rem] text-ink-muted">
+                  {item.meta}
+                </span>
               </div>
               <div className="font-mono text-[0.85rem] text-amber border border-amber/30 bg-amber/12 px-[14px] py-2 rounded-lg">
                 {item.badge}
@@ -44,5 +46,5 @@ export default function Education() {
         </FadeUp>
       </div>
     </section>
-  )
+  );
 }

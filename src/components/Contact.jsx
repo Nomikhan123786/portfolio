@@ -1,6 +1,8 @@
 import { useState } from "react";
 import FadeUp from "./FadeUp.jsx";
 import { Link } from "react-router-dom";
+
+const resume = "/Noman_Nawaz_Khan_CV-2.pdf";
 const LINKS = [
   {
     icon: "✉",
@@ -20,7 +22,7 @@ const LINKS = [
     icon: "in",
     label: "LinkedIn",
     value: "www.linkedin.com/in/noman-nawaz-khan-305557283",
-    to: "www.linkedin.com/in/noman-nawaz-khan-305557283",
+    to: "https://www.linkedin.com/in/noman-nawaz-khan-305557283",
     hover: "hover:border-amber",
   },
   {
@@ -83,26 +85,46 @@ export default function Contact() {
             usually reply within a day.
           </p>
           <div className="flex flex-col gap-[14px] mt-7">
-            {LINKS.map((link) => (
-              <Link
-                key={link.label}
-                to={link.to}
-                download={link.download ? "Noman-Nawaz-Resume.pdf" : undefined}
-                className={`flex items-center gap-[14px] px-[18px] py-4 border border-border rounded-[11px] bg-panel transition-all duration-200 hover:translate-x-1 ${link.hover}`}
-              >
-                <div className="w-[38px] h-[38px] rounded-[9px] bg-ink/5 flex items-center justify-center shrink-0">
-                  {link.icon}
-                </div>
-                <div>
-                  <div className="text-[0.78rem] text-ink-muted">
-                    {link.label}
+            {LINKS.map((link) =>
+              link.download ? (
+                <a
+                  key={link.label}
+                  href={resume}
+                  download="Noman_Nawaz_Khan_CV.pdf"
+                  className={`flex items-center gap-[14px] px-[18px] py-4 border border-border rounded-[11px] bg-panel transition-all duration-200 hover:translate-x-1 ${link.hover}`}
+                >
+                  <div className="w-[38px] h-[38px] rounded-[9px] bg-ink/5 flex items-center justify-center shrink-0">
+                    {link.icon}
                   </div>
-                  <div className="font-semibold text-[0.95rem]">
-                    {link.value}
+                  <div>
+                    <div className="text-[0.78rem] text-ink-muted">
+                      {link.label}
+                    </div>
+                    <div className="font-semibold text-[0.95rem]">
+                      {link.value}
+                    </div>
                   </div>
-                </div>
-              </Link>
-            ))}
+                </a>
+              ) : (
+                <Link
+                  key={link.label}
+                  to={link.to}
+                  className={`flex items-center gap-[14px] px-[18px] py-4 border border-border rounded-[11px] bg-panel transition-all duration-200 hover:translate-x-1 ${link.hover}`}
+                >
+                  <div className="w-[38px] h-[38px] rounded-[9px] bg-ink/5 flex items-center justify-center shrink-0">
+                    {link.icon}
+                  </div>
+                  <div>
+                    <div className="text-[0.78rem] text-ink-muted">
+                      {link.label}
+                    </div>
+                    <div className="font-semibold text-[0.95rem]">
+                      {link.value}
+                    </div>
+                  </div>
+                </Link>
+              ),
+            )}
           </div>
         </FadeUp>
 
