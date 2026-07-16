@@ -1,4 +1,4 @@
-const resume = "Noman_Nawaz_Khan_CV-2";
+const resume = "/Noman_Nawaz_Khan_CV-2.pdf";
 export default function Footer() {
   return (
     <footer className="border-t border-border py-9 text-center">
