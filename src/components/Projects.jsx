@@ -7,13 +7,14 @@ const PROJECTS = [
     title: "Hospital Appointment System",
     desc: "A booking platform where patients schedule visits by department and doctor availability, while admins manage schedules from a dedicated dashboard in real time.",
     tags: ["React", "Node.js", "Express", "MongoDB", "JWT"],
+    href: "",
   },
   {
     icon: "💼",
     color: "amber",
     title: "SwiftMove Clone",
     desc: "Frontend clone of a professional moving & relocation service landing page, featuring a hero section, service highlights, pricing, testimonials, and a quote request form, built with responsive design and modern UI components. Focused on replicating real-world business UX — including navigation, dark mode toggle, and multi-section layout — using React and Tailwind CSS",
-
+    href: "https://swift-move-clone.vercel.app",
     tags: ["React", "Tailwind CSS"],
   },
   {
@@ -22,6 +23,7 @@ const PROJECTS = [
     title: "Task Manager",
     desc: "A task manager web csn add Task ,filter the task , edit the task and delete the task",
     tags: ["React"],
+    href: "https://task-manager-three-psi-58.vercel.app",
   },
   {
     icon: "👨‍💼",
@@ -29,6 +31,7 @@ const PROJECTS = [
     title: "Portfolio",
     desc: "A portfolio project  in which I introduced myself and discussed my project which I built and add to gthub and deploy on vercel.",
     tags: ["React", "Express", "PostgreeSQL"],
+    href: "https://portfolio-ochre-pi-34.vercel.app",
   },
 ];
 
@@ -76,7 +79,7 @@ export default function Projects() {
                     ⌥
                   </a>
                   <a
-                    href="#"
+                    href={project.href}
                     aria-label="Live demo"
                     className="w-[34px] h-[34px] rounded-lg border border-border flex items-center justify-center transition-colors duration-200 hover:border-cyan"
                   >
