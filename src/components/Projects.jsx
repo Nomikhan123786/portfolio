@@ -9,26 +9,26 @@ const PROJECTS = [
     tags: ["React", "Node.js", "Express", "MongoDB", "JWT"],
   },
   {
-    icon: "🚐",
+    icon: "💼",
     color: "amber",
-    title: "SwiftMove Clone ",
+    title: "SwiftMove Clone",
     desc: "Frontend clone of a professional moving & relocation service landing page, featuring a hero section, service highlights, pricing, testimonials, and a quote request form, built with responsive design and modern UI components. Focused on replicating real-world business UX — including navigation, dark mode toggle, and multi-section layout — using React and Tailwind CSS",
 
     tags: ["React", "Tailwind CSS"],
   },
   {
-    icon: "🏆",
+    icon: "📝",
     color: "violet",
-    title: "E-Commerce ",
-    desc: "An analytics-driven dashboard for store owners to track orders, manage inventory, and visualize sales trends with real-time charts.",
-    tags: ["React", "Node.js", "Chart.js", "MongoDB"],
+    title: "Task Manager",
+    desc: "A task manager web csn add Task ,filter the task , edit the task and delete the task",
+    tags: ["React"],
   },
   {
-    icon: "💬",
+    icon: "👨‍💼",
     color: "cyan",
-    title: "Real-Time Chat App",
-    desc: "A socket-powered messaging app with private rooms, typing indicators, and online-status presence built on Express and Socket.io.",
-    tags: ["React", "Socket.io", "Express", "MongoDB"],
+    title: "Portfolio",
+    desc: "A portfolio project  in which I introduced myself and discussed my project which I built and add to gthub and deploy on vercel.",
+    tags: ["React", "Express", "PostgreeSQL"],
   },
 ];
 
