@@ -29,14 +29,20 @@ export default function About() {
             Turning ideas into working products, one commit at a time.
           </h2>
           <p className="text-ink-muted mb-4 text-[1.02rem]">
-            I&apos;m a{" "}
+            I'm a{" "}
             <strong className="text-ink font-semibold">
               MERN stack developer
             </strong>{" "}
-            who enjoys the full journey of building software — sketching a data
-            model, wiring up a REST API, and polishing the last pixel of a React
-            interface. I like projects that solve a real, everyday problem for
-            real people.
+            who enjoys building fast, responsive, and scalable web applications
+            from design to deployment. I specialize in creating modern user
+            interfaces with React.js and Tailwind CSS, while developing secure
+            and efficient backend APIs using Node.js, Express.js, and MongoDB.
+            My recent projects include a Hospital Appointment System with
+            role-based authentication and appointment management, a Task Manager
+            for organizing daily workflows, and responsive frontend
+            implementations such as Lasles VPN and SwiftMove Clone, all built
+            with a strong focus on performance, usability, and clean
+            architecture.
           </p>
           <p className="text-ink-muted mb-4 text-[1.02rem]">
             My recent work includes a{" "}
