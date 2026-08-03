@@ -4,10 +4,10 @@ const PROJECTS = [
   {
     icon: "🏥",
     color: "cyan",
-    title: "Hospital Appointment System",
+    title: "Online Hospital Appointment",
     desc: "A booking platform where patients schedule visits by department and doctor availability, while admins manage schedules from a dedicated dashboard in real time.",
     tags: ["React", "Node.js", "Express", "MongoDB", "JWT"],
-    href: "",
+    href: "https://online-hospital-appointments.vercel.app/",
   },
   {
     icon: "💼",
