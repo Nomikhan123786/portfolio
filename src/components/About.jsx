@@ -43,8 +43,7 @@ export default function About() {
             <strong className="text-ink font-semibold">
               Hospital Appointment System
             </strong>{" "}
-            with role-based authentication and appointment management.
-            <strong className="text-ink font-semibold">Job Portal</strong>{" "}
+            with role-based authentication and appointment management.{" "}
           </p>
 
           <p className="text-ink-muted mb-4 text-[1.02rem]">
