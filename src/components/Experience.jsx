@@ -11,15 +11,6 @@ const JOBS = [
       "After this working on the MERN stack project using React , TailwindCSS, Node.js and Express.js",
     ],
   },
-  {
-    hash: " Jul 2026 – Present",
-    title: "web Developer Intern — GAO TEK",
-    meta: "remote",
-    points: [
-      "Developing the frontend web Application using HTML , CSS and javaScript",
-      "Working with the teams to help hands-on experience",
-    ],
-  },
 ];
 
 export default function Experience() {
