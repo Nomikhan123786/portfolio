@@ -18,6 +18,14 @@ const PROJECTS = [
     tags: ["React", "Tailwind CSS"],
   },
   {
+    icon: "🚀",
+    color: "green",
+    title: "Lasles VPN",
+    desc: "This project is a frontend implementation of the Lasles VPN Figma design, developed using React.js and Tailwind CSS with a fully responsive layout.",
+    tags: ["React"],
+    href: "https://lasles-vpn-chi.vercel.app",
+  },
+  {
     icon: "📝",
     color: "violet",
     title: "Task Manager",
