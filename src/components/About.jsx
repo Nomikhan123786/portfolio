@@ -37,28 +37,29 @@ export default function About() {
             from design to deployment. I specialize in creating modern user
             interfaces with React.js and Tailwind CSS, while developing secure
             and efficient backend APIs using Node.js, Express.js, and MongoDB.
-            My recent projects include a Hospital Appointment System with
-            role-based authentication and appointment management, a Task Manager
-            for organizing daily workflows, and responsive frontend
-            implementations such as Lasles VPN and SwiftMove Clone, all built
-            with a strong focus on performance, usability, and clean
-            architecture.
           </p>
           <p className="text-ink-muted mb-4 text-[1.02rem]">
             My recent work includes a{" "}
             <strong className="text-ink font-semibold">
               Hospital Appointment System
             </strong>{" "}
-            that cut manual booking errors for a small clinic, and a{" "}
+            with role-based authentication and appointment management.
             <strong className="text-ink font-semibold">Job Portal</strong>{" "}
-            connecting applicants with recruiters through role-based dashboards.
-            I care about code that&apos;s easy to read six months later, not
-            just code that works today.
+          </p>
+
+          <p className="text-ink-muted mb-4 text-[1.02rem]">
+            <strong className="text-ink font-semibold">Task Manager </strong>{" "}
+            for organizing daily workflows, and responsive frontend
+            implementations such as
           </p>
           <p className="text-ink-muted mb-4 text-[1.02rem]">
-            Outside of client work, I contribute to open-source utilities, write
-            about JavaScript patterns, and I&apos;m always mid-way through
-            breaking (and fixing) a side project.
+            <strong className="text-ink font-semibold"> Lasles VPN </strong> and
+            {""}
+            <strong className="text-ink font-semibold">
+              SwiftMove Clone,
+            </strong>{" "}
+            all built with a strong focus on performance, usability, and clean
+            architecture.
           </p>
           <div className="grid grid-cols-2 nav:grid-cols-3 gap-4 mt-8">
             {FACTS.map((fact) => (
