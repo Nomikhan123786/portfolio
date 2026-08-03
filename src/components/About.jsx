@@ -1,8 +1,8 @@
 import FadeUp from "./FadeUp.jsx";
 import noman from "../assets/images/noman.jpeg";
 const FACTS = [
-  { num: "1.5+", label: "Years building with MERN", color: "text-cyan" },
-  { num: "10+", label: "REST APIs designed", color: "text-amber" },
+  { num: "0.5+", label: "Years building with MERN", color: "text-cyan" },
+  { num: "5+", label: "REST APIs designed", color: "text-amber" },
   { num: "100%", label: "Responsive, always", color: "text-violet" },
 ];
 
