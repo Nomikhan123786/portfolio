@@ -53,7 +53,6 @@ export default function Hero() {
             </a>
             <a
               href={resume}
-              download="Noman-Nawaz-Resume.pdf"
               className="px-[26px] py-[13px] rounded-[9px] font-semibold text-[0.95rem] inline-flex items-center gap-2 transition-all duration-200 border border-border text-ink bg-transparent hover:border-amber hover:text-amber"
             >
               ↓ Download résumé
