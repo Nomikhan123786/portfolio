@@ -49,14 +49,11 @@ export default function About() {
           <p className="text-ink-muted mb-4 text-[1.02rem]">
             <strong className="text-ink font-semibold">Task Manager </strong>{" "}
             for organizing daily workflows, and responsive frontend
-            implementations such as
+            implementations such as{" "}
           </p>
           <p className="text-ink-muted mb-4 text-[1.02rem]">
-            <strong className="text-ink font-semibold"> Lasles VPN </strong> and
-            {""}
-            <strong className="text-ink font-semibold">
-              SwiftMove Clone,
-            </strong>{" "}
+            <strong className="text-ink font-semibold"> Lasles VPN </strong> and{" "}
+            <strong className="text-ink font-semibold">SwiftMove Clone,</strong>{" "}
             all built with a strong focus on performance, usability, and clean
             architecture.
           </p>
