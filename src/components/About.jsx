@@ -44,19 +44,15 @@ export default function About() {
               Hospital Appointment System
             </strong>{" "}
             with role-based authentication and appointment management.{" "}
-          </p>
-
-          <p className="text-ink-muted mb-4 text-[1.02rem]">
             <strong className="text-ink font-semibold">Task Manager </strong>{" "}
             for organizing daily workflows, and responsive frontend
             implementations such as{" "}
-          </p>
-          <p className="text-ink-muted mb-4 text-[1.02rem]">
             <strong className="text-ink font-semibold"> Lasles VPN </strong> and{" "}
             <strong className="text-ink font-semibold">SwiftMove Clone,</strong>{" "}
             all built with a strong focus on performance, usability, and clean
             architecture.
           </p>
+
           <div className="grid grid-cols-2 nav:grid-cols-3 gap-4 mt-8">
             {FACTS.map((fact) => (
               <div
